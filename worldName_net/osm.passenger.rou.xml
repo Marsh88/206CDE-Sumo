@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 03/22/16 15:26:38 by SUMO duarouter Version 0.25.0
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="osm.net.xml"/>
+        <trip-files value="osm.passenger.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="osm.passenger.rou.xml"/>
+    </output>
+
+    <processing>
+        <ignore-errors value="true"/>
+    </processing>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600.0"/>
+    </time>
+
+    <report>
+        <no-warnings value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="passenger" vClass="passenger"/>
+    <flow id="veh10" type="passenger"  begin="0" end= "7200" period="100" >
+        <route edges="326982787#6 -326982787#6 -132319159#2 -132319159#1 -132319159#0"/>
+    </flow>
+    <flow id="veh11" type="passenger"  begin="0" end= "7200" period="100" >
+        <route edges="-45437501#1 45437501#1 45437501#2 45437501#3 29255885#1 29255885#2 29255885#3 -53349605 -76609190#1 -76609190#0"/>
+    </flow>
+
+    <flow id="veh12" type="passenger"  begin="0" end= "7200" period="100" >
+        <route edges="164931291#0 164931291#1 164931291#2 29255886#4-AddedOnRampEdge 29255886#4 45774276#0 45774276#1 -45774276#1"/>
+    </flow>
+    <flow id="veh13" type="passenger"  begin="0" end= "7200" period="100" >
+        <route edges="-132318149 76609190#4"/>
+    </flow>
+    <flow id="veh14" type="passenger"  begin="0" end= "7200" period="100" >
+        <route edges="76609190#0 76609190#1 53349605 29255885#4 29255885#5 29255885#1 76609185#0 -76609190#8 76609190#8"/>
+    </flow>
+    <flow id="veh15" type="passenger"  begin="0" end= "7200" period="100" >
+        <route edges="29255886#2 29255886#3"/>
+    </flow>
+    <flow id="veh16" type="passenger"  begin="0" end= "7200" period="100" >
+        <route edges="-53349605 76609190#2 76609190#3 76609190#4 76609190#5"/>
+    </flow>
+    <flow id="veh17" type="passenger"  begin="0" end= "7200" period="100" >
+        <route edges="45437501#1 45437501#2 45437501#3 29255885#1 76609185#0 76609185#1 132319466 326982787#1 326982787#2 -132319160 -132318144#1"/>
+    </flow>
+    <flow id="veh18" type="passenger"  begin="0" end= "7200" period="100" >
+        <route edges="-326982787#6 -132319159#2 -132319159#1 -132319159#0 -326982787#1"/>
+    </flow>
+    <flow id="veh19" type="passenger"  begin="0" end= "7200" period="100" >
+        <route edges="326982788 326982787#0 -132319466 -132326606 132326603 -76609190#4"/>
+    </flow>
+    <flow id="veh20" type="passenger"  begin="0" end= "7200" period="100" >
+        <route edges="132326603 -132326603 132318144#0 132319159#1 132319159#2 -326982787#5 64969200"/>
+    </flow>
+    <flow id="veh21" type="passenger"  begin="0" end= "7200" period="100" >
+        <route edges="45437501#2 45437501#3 29255885#1 76609185#0 76609185#1 132319466 326982787#1 326982787#2 -132319160 -132318144#1"/>
+    </flow>
+    <flow id="veh22" type="passenger"  begin="0" end= "7200" period="100" >
+        <route edges="53349605 -53349605 -76609190#1 -326982787#6 -132319159#2 -132319159#1 132318144#1 132319160"/>
+    </flow>
+    <flow id="veh23" type="passenger"  begin="0" end= "7200" period="100" >
+        <route edges="-53278515 -76609190#2 53349605 29255885#4 29255885#5 29255885#1 29255885#2 326932214"/>
+    </flow>
+   <flow id="veh24" type="passenger"  begin="0" end= "7200" period="100" >
+        <route edges="-132319159#1 -132319159#0 -326982787#1 -132319466 -132326607 -76609185#0 29255885#2 326932214"/>
+    </flow>
+    <flow id="veh25" type="passenger"  begin="0" end= "7200" period="100" >
+        <route edges="-132318149 76609190#4 -132326603 132326606 132319466 -326982787#0 -326982788"/>
+    </flow>
+    <flow id="veh26" type="passenger"  begin="0" end= "7200" period="100" >
+        <route edges="-326982787#0 326982787#0 326982787#1 326982787#2 326982787#3"/>
+    </flow>
+    <flow id="veh27" type="passenger"  begin="0" end= "7200" period="100" >
+        <route edges="-56651864#0 56651866#1 56651864#1 56640798"/>
+    </flow>
+    <flow id="veh28" type="passenger"  begin="0" end= "7200" period="100" >
+        <route edges="-132318144#2 132319160 -326982787#2 -326982787#1 -132319466 132319465 76609190#6 76609190#7 76609190#8"/>
+    </flow>
+    <flow id="veh29" type="passenger"  begin="0" end= "7200" period="100" >
+        <route edges="29255885#5 29255885#1 76609185#0 76609185#1 132319466 326982787#1 132319159#0 132318144#1"/>
+    </flow>
+    <flow id="veh30" type="passenger"  begin="0" end= "7200" period="100" >
+        <route edges="76609185#0 76609185#1 132319466 326982787#1 132319159#0"/>
+    </flow>
+    <flow id="veh31" type="passenger"  begin="0" end= "7200" period="100" >
+        <route edges="-132326606 132318144#0 132319159#1 132319159#2 326982787#6 -326982787#6"/>
+    </flow>
+    <flow id="veh32" type="passenger"  begin="0" end= "7200" period="100" >
+        <route edges="-47584422#0 -56651864#1 47584425#0 47584426#1 -47584426#1"/>
+    </flow>
+    <flow id="veh33" type="passenger"  begin="0" end= "7200" period="100" >
+        <route edges="45437501#3 29255885#1 76609185#0 -76609190#8 -76609190#7 -76609190#6 -76609190#5 76609190#5"/>
+    </flow>
+    
+    <flow id="veh34" type="passenger"  begin="0" end= "7200" period="100" >
+        <route edges="45437501#0 45437501#1 45437501#2 45437501#3 29255885#1 76609185#0"/>
+    </flow>
+
+    <flow id="veh35" type="passenger"  begin="0" end= "7200" period="100" >
+        <route edges="132318144#2 132318144#3 132319159#2 326982787#6 76609190#1 53349605 29255885#4 45437501#0 45437501#1 45437501#2"/>
+    </flow>
+    <flow id="veh36" type="passenger"  begin="0" end= "7200" period="100" >
+        <route edges="45437501#2 45437501#3 29255885#1 76609185#0 76609190#9 326982788 -326982788"/>
+    </flow>
+    <flow id="veh37" type="passenger"  begin="0" end= "7200" period="100" >
+        <route edges="76609185#1 132319466 326982787#1 326982787#2 -132319160"/>
+    </flow>
+    <flow id="veh38" type="passenger"  begin="0" end= "7200" period="100" >
+        <route edges="-132319466 -132326606 132326603 -76609190#4 -76609190#3 53278515"/>
+    </flow>
+    <flow id="veh39" type="passenger"  begin="0" end= "7200" period="100" >
+        <route edges="29255885#2 29255885#3 -53349605 76609190#2 53278515"/>
+    </flow>
+    <flow id="veh40" type="passenger"  begin="0" end= "7200" period="100" >
+        <route edges="-53278515 76609190#3 76609190#4 76609190#5 76609190#6 76609190#7 76609190#8 76609185#1"/>
+    </flow>
+    <flow id="veh41" type="passenger"  begin="0" end= "7200" period="100" >
+        <route edges="-132318144#2 -132318144#1 132319159#1 132319159#2 326982787#6 76609190#1 53349605"/>
+    </flow>
+    <flow id="veh42" type="passenger"  begin="0" end= "7200" period="100" >
+        <route edges="45774276#0"/>
+    </flow>
+    <flow id="veh43" type="passenger"  begin="0" end= "7200" period="100" >
+        <route edges="29255885#1 76609185#0 76609185#1"/>
+    </flow>
+    <flow id="veh44" type="passenger"  begin="0" end= "7200" period="100" >
+        <route edges="-326982787#4 326982787#4 326982787#5 326982787#6 76609190#1 53349605 29255885#4 29255885#5 29255885#1 76609185#0 -76609190#8 76609190#8"/>
+    </flow>
+    <flow id="veh45" type="passenger"  begin="0" end= "7200" period="100" >
+        <route edges="-76609185#0 76609185#0 -76609190#8 -76609190#7 -76609190#6 -76609190#5 -76609190#4"/>
+    </flow>
+    <flow id="veh46" type="passenger"  begin="0" end= "7200" period="100" >
+        <route edges="-47584422#0 -56651864#1 47584425#0 47584426#1 -47584530"/>
+    </flow>
+   <flow id="veh47" type="passenger"  begin="0" end= "7200" period="100" >
+        <route edges="-326982787#5 326982787#5 -132319159#2 -132319159#1 -132319159#0 -326982787#1"/>
+    </flow>
+    <flow id="veh48" type="passenger"  begin="0" end= "7200" period="100" >
+        <route edges="45437501#3 29255885#1 29255885#2 29255885#3 -53349605 -76609190#1 -326982787#6 -132319159#2 -132319159#1"/>
+    </flow>
+    <flow id="veh49" type="passenger"  begin="0" end= "7200" period="100" >
+        <route edges="-76609190#3 76609190#3 76609190#4 -132326603 132326606 132319466 -326982787#0 -326982788"/>
+    </flow>
+    <flow id="veh50" type="passenger"  begin="0" end= "7200" period="100" >
+        <route edges="29255886#1 29255886#1-AddedOffRampEdge 164931291#0"/>
+    </flow>
+    <flow id="veh51" type="passenger"  begin="0" end= "7200" period="100" >
+        <route edges="-76609190#9 -76609185#0 29255885#2 29255885#3 -53349605 -76609190#1 -326982787#6 -326982787#5 -326982787#4"/>
+    </flow>
+    <flow id="veh52" type="passenger"  begin="0" end= "7200" period="100" >
+        <route edges="45437501#3 29255885#1 76609185#0 -76609190#8 -76609190#7 -76609190#6 -76609190#5 -76609190#4 132318149"/>
+    </flow>
+    <flow id="veh53" type="passenger"  begin="0" end= "7200" period="100" >
+        <route edges="-76609190#8 76609190#8 -76609185#0 29255885#2 29255885#3 29255885#4 29255885#5"/>
+    </flow>
+    <flow id="veh54" type="passenger"  begin="0" end= "7200" period="100" >
+        <route edges="-326932214 29255885#3 -53349605 -76609190#1 -326982787#6 -132319159#2 -132318144#3 -132318149"/>
+    </flow>
+    <flow id="veh55" type="passenger"  begin="0" end= "7200" period="100" >
+        <route edges="-45437501#2 45437501#2 45437501#3 29255885#1 76609185#0 76609185#1 132319465"/>
+    </flow>
+    <flow id="veh56" type="passenger"  begin="0" end= "7200" period="100" >
+        <route edges="29255885#1 29255885#2 326932214"/>
+    </flow>
+ 
+    <flow id="veh57" type="passenger"  begin="0" end= "7200" period="100" >
+        <route edges="-326932214 29255885#3 -53349605 -76609190#1 -326982787#6 -326982787#5 64969200"/>
+    </flow>
+    <flow id="veh58" type="passenger"  begin="0" end= "7200" period="100" >
+        <route edges="132318144#3 -132319159#1 -132318144#0 132326606"/>
+    </flow>
+    <flow id="veh59" type="passenger"  begin="0" end= "7200" period="100" >
+        <route edges="-45437501#0 29255885#5 29255885#1 29255885#2 29255885#3 -53349605 -76609190#1 -76609190#0"/>
+    </flow>
+    <flow id="veh60" type="passenger"  begin="0" end= "7200" period="100" >
+        <route edges="-76609190#7 -76609190#6 -76609190#5 -76609190#4 -76609190#3 -76609190#2 53349605 29255885#4"/>
+    </flow>
+   <flow id="veh61" type="passenger"  begin="0" end= "7200" period="100" >
+        <route edges="-76609190#4 -76609190#3 -76609190#2 53349605 29255885#4 45437501#0 45437501#1 -45437501#1"/>
+    </flow>
+    <flow id="veh62" type="passenger"  begin="0" end= "7200" period="100" >
+        <route edges="132318144#2 -132318144#2 132319160 -326982787#2 -326982787#1 -132319466 132319465 76609190#6 76609190#7 -76609190#7"/>
+    </flow>
+
+    <flow id="veh63" type="passenger"  begin="0" end= "7200" period="100" >
+        <route edges="-53278515 -76609190#2 53349605 29255885#4 29255885#5 29255885#1 29255885#2 326932214"/>
+    </flow>
+    <flow id="veh64" type="passenger"  begin="0" end= "7200" period="100" >
+        <route edges="132318144#2 -132318144#2 132319160 -326982787#2 -326982787#1 -132319466 132319465 76609190#6 76609190#7 76609190#8"/>
+    </flow>
+    <flow id="veh65" type="passenger"  begin="0" end= "7200" period="100" >
+        <route edges="-132326606 132318144#0 132319159#1 132319159#2"/>
+    </flow>
+    <flow id="veh66" type="passenger"  begin="0" end= "7200" period="100" >
+        <route edges="-53278515 76609190#3 76609190#4 76609190#5 76609190#6 76609190#7 76609190#8 -76609190#8"/>
+    </flow>
+    <flow id="veh67" type="passenger"  begin="0" end= "7200" period="100" >
+        <route edges="-76609190#7 -76609190#6 -76609190#5 -132326603 132318144#0"/>
+    </flow>
+    <flow id="veh68" type="passenger"  begin="0" end= "7200" period="100" >
+        <route edges="-53278515 -76609190#2 -76609190#1 -326982787#6 -132319159#2 -132318144#3"/>
+    </flow>
+    <flow id="veh69" type="passenger"  begin="0" end= "7200" period="100" >
+        <route edges="132319465 -76609190#5 -76609190#4 -76609190#3 -76609190#2 53349605 29255885#4 45437501#0 45437501#1"/>
+    </flow>
+    <flow id="veh70" type="passenger"  begin="0" end= "7200" period="100" >
+        <route edges="56651866#1 56651864#1 56651864#2 56651863 -47584422#1"/>
+    </flow>
+    <flow id="veh71" type="passenger"  begin="0" end= "7200" period="100" >
+        <route edges="-64970026 -76609190#7 -76609190#6 -76609190#5 -76609190#4 -76609190#3 53278515"/>
+    </flow>
+    <flow id="veh72" type="passenger"  begin="0" end= "7200" period="100" >
+        <route edges="-326982787#0 326982787#0 326982787#1 132319159#0 132319159#1 132319159#2 326982787#6 -76609190#0"/>
+    </flow>
+   <flow id="veh73" type="passenger"  begin="0" end= "7200" period="100" >
+        <route edges="-64969200 326982787#5 -132319159#2 -132319159#1 -132319159#0 -326982787#1 -132319466"/>
+    </flow>
+    <flow id="veh74" type="passenger"  begin="0" end= "7200" period="100" >
+        <route edges="76609185#1 132319466 326982787#1 132319159#0 132319159#1 132319159#2 -326982787#5 -326982787#4 -64969200"/>
+    </flow>
+    <flow id="veh75" type="passenger"  begin="0" end= "7200" period="100" >
+        <route edges="132319159#0 132319159#1 132319159#2 326982787#6"/>
+    </flow>
+   <flow id="veh76" type="passenger"  begin="0" end= "7200" period="100" >
+        <route edges="132318144#1 132319160 -326982787#2 -326982787#1 -132319466 -132326607 -76609185#0 76609185#0"/>
+    </flow>
+    <flow id="veh77" type="passenger"  begin="0" end= "7200" period="100" >
+        <route edges="-326982788 326982788 326982787#0 326982787#1 132319159#0 132319159#1 132319159#2 326982787#6 76609190#1 53349605 29255885#4 29255885#5 -45437501#3 -45437501#2"/>
+    </flow>
+   <flow id="veh78" type="passenger"  begin="0" end= "7200" period="100" >
+        <route edges="-53278515 -76609190#2 53349605 29255885#4 29255885#5 29255885#1 29255885#2 326932214"/>
+    </flow>
+   <flow id="veh79" type="passenger"  begin="0" end= "7200" period="100" >
+        <route edges="-132319159#1 -132319159#0 -326982787#1 -132319466"/>
+    </flow>
+    <flow id="veh80" type="passenger"  begin="0" end= "7200" period="100" >
+        <route edges="164931291#0 164931291#1 164931291#2 29255886#4-AddedOnRampEdge"/>
+    </flow>
+    <flow id="veh81" type="passenger"  begin="0" end= "7200" period="100" >
+        <route edges="-56651863 -56651864#2 -56651864#1 47584425#0 47584425#1 -56651865#1"/>
+    </flow>
+    <flow id="veh82" type="passenger"  begin="0" end= "7200" period="100" >
+        <route edges="-64969200 326982787#5 -132319159#2 -132319159#1 -132318144#0 132326603 -132326603"/>
+    </flow>
+</routes>
